@@ -10,5 +10,21 @@ h1{
 
 .board{
     display: grid;
-    grid-template-columns: repeat;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#result{
+    font-size: ;
 }
