@@ -6,7 +6,7 @@ function makeMove(cell){
         cell.textContent=currentPlayer;
         checkWin();
         currentPlayer = currentPlayer === 'X'?'O':'X';
-        document.getElementById('result').textContent = 'Player $ {currentPlayer}'s turn';
+        document.getElementById('result').textContent = 'Player${currentPlayer}'s turn';
     }
 
 }
@@ -19,5 +19,8 @@ function resetGame() {
     const cells = document.querySelectorAll('.cell');
     cells.forEach(cell=> cell.textContent = ");
     currentPlayer='X';
-    gameOver
+    gameOver= false:
+    document.getElementById('result').textContent = 'Player${currentPlayer}'s turn';
 }
+
+resetGame();
