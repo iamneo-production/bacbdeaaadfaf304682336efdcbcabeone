@@ -11,4 +11,13 @@ function makeMove(cell){
 
 }
 
-function checkWin() {}
+function checkWin() {
+    const cells = document.querySelectorAll('.cell');
+}
+
+function resetGame() {
+    const cells = document.querySelectorAll('.cell');
+    cells.forEach(cell=> cell.textContent = ");
+    currentPlayer='X';
+    gameOver
+}
