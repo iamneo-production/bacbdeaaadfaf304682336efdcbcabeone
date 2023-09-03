@@ -26,5 +26,21 @@ h1{
 }
 
 #result{
-    font-size: ;
+    font-size: 25px;
+    margin: 10px auto;
+}
+
+#reset{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
 }
